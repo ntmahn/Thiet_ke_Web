@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Rhode.vn</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rhode</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="asset/style.css"
+</head>
+<body>
+   
+    <header>
+        <a href="#" class="logo"><i class="fas-fa-untensils"></i>rhode</a>
+        <nav class="navbar">
+            <a href="index.html#home">Trang chủ</a>
+            <a href="gioithieu.html">Giới thiệu</a>
+            <a href="index.html#sanpham">Sản phẩm</a>
+            <div class="dropdown">
+                <a href="#">Combo</a>
+                <div class="dropdown-content">
+                    <a href="set.html">Set</a>
+                    <a href="combo1.html">Combo</a>
+                </div>
+            </div>
+            <a href="lienhe.html">Liên hệ</a>
+            <a href="index.html#review">Phản hồi</a>
+            <a href="qa.html">Q&A</a>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Giỏ Hàng</h5>
+                        <span class="close">&times;</span>
+                    </div>
+                    <!-- modal -->
+                    <div class="modal-body">
+                        <div class="cart-row">
+                            <span class="cart-item cart-header cart-column">Sản Phẩm</span>
+                            <span class="cart-price cart-header cart-column">Giá</span>
+                            <span class="cart-quantity cart-header cart-column">Số Lượng</span>
+                        </div>
+                        <div class="cart-items">
+                            <div class="cart-total">
+                                <strong class="cart-total-title">Tổng Cộng:</strong>
+                                <span class="cart-total-price">0 $</span>
+                            </div>
+                        </div>
+    
+    
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary close-footer">Đóng</button>
+                            <button type="button" class="btn btn-primary order">Thanh Toán</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            
+            <i id="cart" class="fas fa-shopping-cart"></i>
+            <a href="dangnhap.html" class="fas fa-user-plus"></a>   
+        </div>
+    
+    </header>
+
+
+<form action = "" id="search-form">
+    <input type="search" placeholder="Tìm kiếm ở đây..." name ="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+
+<!-- Gioi thieu Manh -->
+<section class="about" id="Gioithieu">
+    <h3 class="sub-heading"> Về chúng tôi </h3>
+    <h1 class="heading"> VỀ RHODE </h1> 
+    <div class="centered-image">
+        <img src="images/rhode_intro1.png" alt="Ảnh giới thiệu 1" class="intro-image">
+    </div>
+    <div class="content">
+        <h3>Chào mừng bạn đến với Rhode - điểm đến lý tưởng cho những ai đang tìm kiếm sự hoàn hảo trong việc chăm sóc làn da và làm đẹp.</h3>
+        <p>Rhode không chỉ đơn thuần là một tên, mà còn là biểu tượng của sự tự do, sự tinh khiết và vẻ đẹp tự nhiên. Hình thành từ mong muốn tôn vinh cái đẹp trong sự đơn giản và tự nhiên nhất, Rhode đã trở thành nguồn cảm hứng cho những ai mong muốn làm đẹp một cách tự nhiên và nhẹ nhàng.
+        Rhode tự hào giới thiệu một loạt các sản phẩm chăm sóc da chất lượng cao, đa dạng và phong phú. Trong danh mục sản phẩm của chúng tôi, bạn sẽ tìm thấy:
+        <br> - Son Dưỡng: Với công thức giàu dưỡng chất, son dưỡng từ Rhode không chỉ giúp giữ cho đôi môi của bạn mềm mại và mịn màng mà còn cung cấp dưỡng chất cần thiết để nuôi dưỡng làn môi từ bên trong.
+        <br> - Serum: Với sự kết hợp hoàn hảo giữa các thành phần tự nhiên và công nghệ tiên tiến, serum của chúng tôi mang lại hiệu quả tối đa trong việc cải thiện làn da của bạn, từ việc giảm nếp nhăn đến làm sáng da và thu nhỏ lỗ chân lông.
+        <br> - Dưỡng Ẩm: Là bước không thể thiếu trong quy trình chăm sóc da, dưỡng ẩm của Rhode cung cấp độ ẩm cần thiết cho làn da, giúp da luôn căng tràn sức sống và rạng rỡ.
+        </p>
+    </div>
+    <div class="additional-content">
+        <div class="image">
+            <img src="images/rhode_intro.jpg" alt="Ảnh giới thiệu 2" class="intro-image">
+        </div>
+        <p>Rhode cam kết mang đến cho khách hàng những sản phẩm chất lượng nhất, được sản xuất từ các thành phần tự nhiên và an toàn cho da. Hãy đồng hành cùng chúng tôi trên hành trình chăm sóc và tôn vinh vẻ đẹp tự nhiên của bạn.</p>
+    </div>
+    <div class="icons-container">
+        <div class="icons" data-message="Miễn phí giao hàng">
+            <i class="fas fa-shipping-fast"></i>
+            <span>Miễn phí giao hàng</span>
+        </div>
+        <div class="icons" data-message="Thanh toán dễ dàng">
+            <i class="fas fa-dollar-sign"></i>
+            <span>Thanh toán dễ dàng</span>
+        </div>
+        <div class="icons" data-message="Phục vụ 24/7">
+            <i class="fas fa-headset"></i>
+            <span>Phục vụ 24/7</span>
+        </div>
+    </div>
+    <a href="index.html" class="btn">Quay lại</a>
+</section>
+
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Các cơ sở</h3>
+            <a href="#">Đống Đa, Hà Nội</a>
+            <a href="#">Cầu Giấy, Hà Nội</a>
+            <a href="#">Phủ Lý, Hà Nam</a>
+            <a href="#">TP. Vinh, Nghệ An</a>
+            <a href="#">Quận 1, Hồ Chí Minh</a>
+        </div>
+
+        <div class="box">
+            <h3>Các mục</h3>
+            <a href="index.html#home">Trang chủ</a>
+            <a href="index.html#sanpham">Sản phẩm</a>
+            <a href="gioithieu.html">Giới thiệu</a>
+            <a href="lienhe.html">Liên hệ</a>
+            <a href="index.html#review">Phản hồi</a>
+            <a href="qa.html">Q&A</a>
+        </div>
+        
+        <div class="box">
+            <h3>Thông tin liên lạc</h3>
+            <a href="#">+124-456-7890</a>
+            <a href="#">+111-222-3333</a>
+            <a href="#">rhode@gmail.com</a>
+        </div>
+
+        <div class="box">
+            <h3>Theo dõi chúng tôi</h3>
+            <a href="https://www.facebook.com/ntmahn/"><i class="fab fa-facebook-f"></i> Facebook</a>
+            <a href="https://x.com/SenselessWillow"><i class="fab fa-twitter"></i> Twitter</a>
+            <a href="https://www.instagram.com/rhode/"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="https://www.linkedin.com/in/ntmahn/"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+        </div>
+
+    </div>
+
+    <div class="credit"> copyright @ 2024 by <span>nhóm 3 thiếu nữ và 1 chàng trai</span></div>
+
+</section>
+
+<!--  footer section ends -->
+
+
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- custom js file link -->
+<script src="asset/script.js"></script>
+</body>
+</html>
